@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">eva</string>
+    <string name="txtLogin">Bienvenido</string>
+    <string name="btn_iniciar_sesion">Iniciar Sesión</string>
+    <string name="txt_protector_uv">Protector UV</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_contrasena">Contraseña</string>
+    <string name="description_back_button">Grafico</string>
+
+</resources>

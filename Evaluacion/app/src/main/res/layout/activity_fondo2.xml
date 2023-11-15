@@ -1,0 +1,116 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".Fondo2">
+
+    <!-- Contenido de la vista Fondo2 -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="514dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/fondo_form"
+        android:paddingStart="20dp"
+        android:paddingTop="90dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="60dp">
+
+        <TextView
+            android:id="@+id/txtCustomLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:text="Mi Perfil"
+            android:textSize="30sp" />
+
+        <!-- Cambia estos TextView por los campos de datos que necesitas -->
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtCustomLabel"
+            android:layout_marginTop="20dp"
+            android:text="Nombre: Christopher"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtApellido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNombre"
+            android:layout_marginTop="10dp"
+            android:text="Apellido: Campos"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtFechaNacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtApellido"
+            android:layout_marginTop="10dp"
+            android:text="Fecha de nacimiento: 12-08-2002"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtProfesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtFechaNacimiento"
+            android:layout_marginTop="10dp"
+            android:text="Profesión: Analista Programador"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="189dp"
+            android:layout_marginTop="242dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/yo" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/toolbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="660dp"
+        android:background="?android:attr/windowBackground">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/item2" />
+
+
+        <!-- Puedes personalizar el diseño de la barra de navegación según tus necesidades -->
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

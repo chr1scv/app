@@ -1,0 +1,17 @@
+<!-- bottom_navigation_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item1"
+        android:title="Salir"
+        android:icon="@drawable/item2" />
+
+    <item
+        android:id="@+id/menu_item2"
+        android:title="Home"
+        android:icon="@drawable/item1" />
+
+    <item
+        android:id="@+id/menu_item3"
+        android:title="Perfil"
+        android:icon="@drawable/item1" />
+</menu>
